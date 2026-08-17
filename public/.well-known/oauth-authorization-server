@@ -1,7 +1,8 @@
 {
-  "issuer": "https://login.microsoftonline.com/bdae3d5d-3614-4d24-88da-9536009d1769/v2.0",
-  "authorization_endpoint": "https://login.microsoftonline.com/bdae3d5d-3614-4d24-88da-9536009d1769/oauth2/v2.0/authorize",
-  "token_endpoint": "https://login.microsoftonline.com/bdae3d5d-3614-4d24-88da-9536009d1769/oauth2/v2.0/token",
+  "issuer": "https://login.microsoftonline.com/utilitratech.onmicrosoft.com/v2.0",
+  "authorization_endpoint": "https://login.microsoftonline.com/utilitratech.onmicrosoft.com/oauth2/v2.0/authorize",
+  "token_endpoint": "https://login.microsoftonline.com/utilitratech.onmicrosoft.com/oauth2/v2.0/token",
+  "jwks_uri": "https://login.microsoftonline.com/utilitratech.onmicrosoft.com/discovery/v2.0/keys",
   "scopes_supported": [
     "openid",
     "profile",
