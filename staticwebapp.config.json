@@ -51,6 +51,10 @@
       "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
     },
     {
+      "route": "/api/ExecMcp",
+      "allowedRoles": ["anonymous"]
+    },
+    {
       "route": "*",
       "allowedRoles": ["admin", "editor", "readonly", "authenticated"]
     }
