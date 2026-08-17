@@ -55,6 +55,10 @@
       "allowedRoles": ["anonymous"]
     },
     {
+      "route": "/.well-known/*",
+      "allowedRoles": ["anonymous"]
+    },
+    {
       "route": "*",
       "allowedRoles": ["admin", "editor", "readonly", "authenticated"]
     }
