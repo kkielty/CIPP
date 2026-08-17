@@ -69,7 +69,8 @@
       "favicon.ico",
       "robots.txt",
       "sitemap.xml",
-      "manifest.json"
+      "manifest.json",
+      "/.well-known/*"
     ]
   },
   "responseOverrides": {
