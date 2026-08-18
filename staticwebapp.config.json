@@ -51,14 +51,6 @@
       "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
     },
     {
-      "route": "/api/ExecMcp",
-      "allowedRoles": ["anonymous"]
-    },
-    {
-      "route": "/.well-known/*",
-      "allowedRoles": ["anonymous"]
-    },
-    {
       "route": "*",
       "allowedRoles": ["admin", "editor", "readonly", "authenticated"]
     }
@@ -73,8 +65,7 @@
       "favicon.ico",
       "robots.txt",
       "sitemap.xml",
-      "manifest.json",
-      "/.well-known/*"
+      "manifest.json"
     ]
   },
   "responseOverrides": {
